@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	min-width: 0;
+}
+
+.DayPicker-Day--selectedRange {
+	background-color: #bef264; /* Cor de fundo do período selecionado */
+	color: #e4e4e7; /* Cor do texto das datas selecionadas */
+}
+
+.DayPicker-Day--selectedRangeStart,
+.DayPicker-Day--selectedRangeEnd {
+	background-color: #a3e635; /* Cor de fundo para o início e fim do período */
+}
