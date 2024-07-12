@@ -22,7 +22,7 @@ Consiste em um site para a organização de viagens. Feito seguindo o evento da 
 
 ## Como executar
 
-- Baixe o projeto em .zip e extraia seus arquivos ou clone ele: `git clone `
+- Baixe o projeto em .zip e extraia seus arquivos ou clone ele: `git clone https://github.com/rafaelsantiagosilva/plann.er.git`
 - Em cada pasta (_client_ e _server_) rode o comando `npm install` em seu terminal para instalar as dependências do projeto
 - Crie um arquivo .env e siga o exemplo (.env.example) para colocar as informações corretamente
 - Inicie o servidor backend, a API, através do comando `npm run dev` na pasta _server_
